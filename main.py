@@ -9,7 +9,7 @@ import time
 pyautogui.PAUSE = 1
 
 pyautogui.press("win")
-pyperclip.write("chrome")
+pyautogui.write("chrome")
 pyautogui.press("enter")
 time.sleep(1.2)
 pyautogui.click(x=983, y=30)
